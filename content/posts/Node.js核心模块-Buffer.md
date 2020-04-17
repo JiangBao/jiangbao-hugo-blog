@@ -1,5 +1,5 @@
 ---
-title: "Node.js核心模块——Buffer"
+title: "Node.js核心模块—Buffer"
 date: 2018-07-13T22:13:50+08:00
 draft: false
 tags: ["Node.js"]
@@ -72,5 +72,17 @@ Data URIs允许一个资源以行内编码的形式存在于web页面中，遵�
   fs.writeFileSync('./icon.bak.jpeg', buf);
   ```
 
-## 创建自定义二进制协议
-TODO
+## 使用场景
+### 1. I/O操作
+对于文件或者网络数据等操作时，可以使用流式操作
+```js
+const fs = require('fs');
+
+const inputStream = fs.createReadStream('file.txt');
+const outputStream = fs.createWriteStream('output.txt');
+
+inputStream.pipe(outputStream);
+```
+
+### 2. 压缩/解压
+使用Node.js核心模块`zlib`实现压缩、解压功能也是基于stream构建的

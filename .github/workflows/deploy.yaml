@@ -1,0 +1,31 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+    path-ignore:
+      - README.md
+      - LICENSE
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup hugo
+      - uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+
+      - name: Deploy
+        run: |
+          git config user.name "${{secrets.GIT_NAME}}"
+          git config user.email "${{secrets.GIT_EMAIL}}"
+          ./deploy.sh

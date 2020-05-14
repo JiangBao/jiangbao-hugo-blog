@@ -121,41 +121,12 @@ git commit -m "$msg"
 git push origin master
 ```
 
-到这一步，每次更新文章之后，需要手动执行`deploy.sh`来部署到github page、coding page等静态页面。  
+到这一步，每次更新文章之后，需要本地手动执行`deploy.sh`来部署到github page、coding page等静态页面。  
 
-要想快速实现自动部署，可以将执行放到`github actions`中，每次提交更新到master分支时，自动触发构建&部署，相关配置大致如下
-```yaml
-name: Build and Deploy
+貌似还是可以更简单...
 
-on:
-  push:
-    branches:
-      - master
-    path-ignore:
-      - README.md
-      - LICENSE
+如果我们只需要`git add . & git commit -m "" & git push `，其余的自动化处理，这样又可以偷点懒
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
-        with:
-          submodules: false
-          fetch-depth: 0
-
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.68.3'
-
-      - name: Deploy
-        run: |
-          git config user.name "${{secrets.GIT_NAME}}"
-          git config user.email "${{secrets.GIT_EMAIL}}"
-          ./deploy.sh
-```
+要想快速实现自动部署，可以将执行放到`github actions`中，每次提交更新到master分支时，自动触发构建&部署，之后有时间再补上
 
 还有更多的功能等待探索中...目前一天下来Hugo使用体验很不错，后面会将个人文章陆续迁移到这，慢慢完善

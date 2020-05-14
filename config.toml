@@ -17,7 +17,7 @@ theme = "LoveIt"
 
 #[params]
 #  # LoveIt 主题版本
-#  version = "0.1.X"
+ version = "0.2.X"
 
 [menu]
   [[menu.main]]
@@ -55,7 +55,7 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   # LoveIt 主题版本
-  version = "0.1.X"
+  version = "0.2.X"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/dillonzq/LoveIt"

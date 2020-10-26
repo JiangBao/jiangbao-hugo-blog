@@ -17,7 +17,7 @@ toc: false
 autoCollapseToc: true
 math: false
 lightgallery: true
-linkToMarkdown: true
+linkToMarkdown: false
 share:
   enable: false
 comment: false

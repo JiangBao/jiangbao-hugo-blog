@@ -45,4 +45,4 @@ jobs:
         with:
           gitee-username: jiangbao1123@gmail.com
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: JiangBao/jiangbao1123
+          gitee-repo: jiangbao1123/jiangbao1123

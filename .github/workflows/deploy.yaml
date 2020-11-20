@@ -31,3 +31,18 @@ jobs:
           external_repository: JiangBao/jiangbao.github.io
           publish_dir: ./public
           publish_branch: master
+
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:JiangBao/jiangbao-hugo-blog.git
+          destination-repo: git@gitee.com:jiangbao1123/jiangbao1123.git
+  
+        - name: Build Gitee Pages
+          uses: yanglbme/gitee-pages-action@master
+          with:
+            gitee-username: jiangbao1123@gmail.com
+            gitee-password: ${{ secrets.GITEE_PASSWORD }}
+            gitee-repo: JiangBao/jiangbao1123

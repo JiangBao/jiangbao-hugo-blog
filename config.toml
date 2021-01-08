@@ -67,7 +67,7 @@ theme = "LoveIt"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "dark"
   [params.search]
-    enable = false
+    enable = true
     # 搜索引擎的类型 ("lunr", "algolia")
     type = "lunr"
     # 文章内容最长索引长度
@@ -401,7 +401,7 @@ theme = "LoveIt"
 # Options to make hugo output files
 # 用于 Hugo 输出文档的设置
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]

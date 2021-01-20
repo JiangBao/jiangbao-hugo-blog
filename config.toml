@@ -120,7 +120,7 @@ theme = "LoveIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       # gravatarEmail = "jiangbao1123@gmail.com"
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.jpg"
+      avatarURL = "https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/icon.jpeg"
       # 主页显示的网站副标题
       subtitle = "野路子程序员，佛系人生玩家"
       # 是否为副标题显示打字机动画

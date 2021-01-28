@@ -6,8 +6,8 @@ author: "酱鲍"
 authorLink: "https://github.com/JiangBao"
 description: ""
 
-tags: []
-categories: []
+tags: ["生活"]
+categories: ["生活"]
 hiddenFromHomePage: false
 
 featuredImage: ""

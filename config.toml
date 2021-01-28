@@ -63,7 +63,7 @@ theme = "LoveIt"
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # 网站关键词
-  keywords = ["酱鲍", "blog"]
+  keywords = ["酱鲍", "博客", "blog"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "dark"
   [params.search]
@@ -95,6 +95,17 @@ theme = "LoveIt"
     # mobile header mode ("fixed", "normal", "auto")
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
+    # [params.header.title]
+    #   # LOGO 的 URL
+    #   logo = ""
+    #   # 标题名称
+    #   name = "我是酱鲍"
+    #   # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    #   pre = ""
+    #   # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    #   post = ""
+    #   # LoveIt 新增 | 0.2.5 是否为标题显示打字机动画
+    #   typeit = true
   # Footer Copyright Info
   # 页面底部版权信息设置
   [params.footer]

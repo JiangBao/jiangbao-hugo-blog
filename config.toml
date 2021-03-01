@@ -65,7 +65,7 @@ theme = "LoveIt"
   # 网站关键词
   keywords = ["酱鲍", "博客", "blog"]
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "dark"
+  defaultTheme = "auto"
   [params.search]
     enable = true
     # 搜索引擎的类型 ("lunr", "algolia")
@@ -214,8 +214,12 @@ theme = "LoveIt"
     # whether to show link to Raw Markdown content of the post
     # 是否在文章页面显示原始 Markdown 文档链接
     linkToMarkdown = false
-  # mathematical formulas (KaTeX https://katex.org/)
-  # 数学公式 (KaTeX https://katex.org/)
+    # mathematical formulas (KaTeX https://katex.org/)
+    # 数学公式 (KaTeX https://katex.org/)
+
+    [params.page.code]
+    copy = true
+    maxShownLines = 100
   [params.math]
     enable = true
     # default block delimiter is $$ ... $$ and \\[ ... \\]

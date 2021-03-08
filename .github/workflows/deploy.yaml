@@ -32,16 +32,27 @@ jobs:
           publish_dir: ./public
           publish_branch: master
 
+      - name: SSH key cache
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_DEPLOY_KEY }}
+
+      - name: Scan public keys
+        run: ssh-keyscan ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
       - name: Deploy to server
-        uses: AEnterprise/rsync-deploy@v1.0
-        env: 
-          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          ARGS: -avz --delete --exclude='*.pyc'
-          SERVER_PORT: "22"
-          FOLDER: ./public
-          SERVER_IP: ${{ secrets.SSH_HOST }}
-          USERNAME: ${{ secrets.SSH_USERNAME }}
-          SERVER_DESTINATION: /home/blog/
+        run: rsync -av --delete public root@${{ secrets.SSH_HOST }}:/home/blog
+
+      # - name: Deploy to server
+      #   uses: AEnterprise/rsync-deploy@v1.0
+      #   env: 
+      #     DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      #     ARGS: -avz --delete --exclude='*.pyc'
+      #     SERVER_PORT: "22"
+      #     FOLDER: ./public
+      #     SERVER_IP: ${{ secrets.SSH_HOST }}
+      #     USERNAME: ${{ secrets.SSH_USERNAME }}
+      #     SERVER_DESTINATION: /home/blog/
 
       # - name: Sync to Gitee
       #   uses: wearerequired/git-mirror-action@master

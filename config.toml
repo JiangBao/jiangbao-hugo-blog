@@ -336,6 +336,14 @@ theme = "LoveIt"
     gitalkJS = ''
     # valine@1.3.10 https://valine.js.org/
     valineJS = ''
+  
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-TYXZ2Y2RHZ"
+      # 是否匿名化用户 IP
+      anonymizeIP = true
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置

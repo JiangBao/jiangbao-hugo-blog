@@ -343,7 +343,7 @@ theme = "LoveIt"
     [params.analytics.google]
       id = "G-TYXZ2Y2RHZ"
       # 是否匿名化用户 IP
-      anonymizeIP = true
+      anonymizeIP = false
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置

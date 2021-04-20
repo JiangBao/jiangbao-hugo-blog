@@ -11,6 +11,8 @@ enableRobotsTXT = true
 enableEmoji = true
 # 网站标题
 title = "我是酱鲍"
+keywords = ["博客", "酱鲍"]
+description = "酱鲍的个人博客"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -44,12 +46,19 @@ theme = "LoveIt"
     title = ""
     weight = 3
   [[menu.main]]
+    identifier = "兴趣周刊"
+    pre = ""
+    name = "周刊"
+    url = "/weekly"
+    title = "兴趣周刊"
+    weight = 4
+  [[menu.main]]
     identifier = "about"
     pre = ""
     name = "关于"
     url = "/about/"
     title = ""
-    weight = 4
+    weight = 5
 
 
 [params]

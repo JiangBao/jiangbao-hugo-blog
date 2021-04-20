@@ -36,7 +36,7 @@
    hugo serve
    ```
 
-3. 开发与部署
+3. 构建与部署
 
-   本地开发完成后，直接提交至仓库，目前使用`github actions`自动部署，具体配置见仓库下`./github/workflows/deploy.yaml`
+   本地开发完成后，直接提交至仓库，无需任何操作，目前使用`github actions`自动构建部署，具体配置见仓库下`./github/workflows/deploy.yaml`
 

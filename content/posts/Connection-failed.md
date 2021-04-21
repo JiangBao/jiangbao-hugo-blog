@@ -4,6 +4,7 @@ date: 2020-03-27T20:57:53+08:00
 draft: false
 tags: ["数据库"]
 categories: ["问题归档"]
+toc: false
 ---
 今天将新购买的个人服务器数据库升级MySQL8.0，出现了本地Navicat Premium无法连接的问题。
 

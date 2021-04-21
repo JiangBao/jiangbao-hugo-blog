@@ -4,6 +4,7 @@ date: 2019-11-23T13:39:54+08:00
 draft: false
 tags: ["JavaScript"]
 categories: ["技术"]
+toc: false
 ---
 最近接手的一个业务，历史遗留下关于连续登录天数功能的bug，历史代码有一项判断是否连续登录天数的逻辑，正好复习一下JS关于时间的操作。
 

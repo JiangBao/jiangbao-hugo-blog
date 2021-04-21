@@ -4,6 +4,7 @@ date: 2019-01-18T22:10:19+08:00
 draft: false
 tags: ["JavaScript"]
 categories: ["技术"]
+toc: false
 ---
 数值运算出错时，比如任何数除以0都会导致错误而终止程序运行，但是在JavaScript中不会影响程序执行，而是会返回一个特殊值--`NaN(Not a Number)`，表示本来要返回数值的操作数未返回数值的情况。最近在一个使用js开发的项目中，一不小心就踩到了一个关于`NaN`的坑。
 

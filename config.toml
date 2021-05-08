@@ -46,19 +46,26 @@ theme = "LoveIt"
     title = ""
     weight = 3
   [[menu.main]]
-    identifier = "兴趣周刊"
+    identifier = "weekly"
     pre = ""
     name = "周刊"
     url = "/weekly"
     title = "兴趣周刊"
     weight = 4
   [[menu.main]]
+    identifier = "interview"
+    pre = ""
+    name = "防失业"
+    url = "/interview"
+    title = "防失业"
+    weight = 5
+  [[menu.main]]
     identifier = "about"
     pre = ""
     name = "关于"
     url = "/about/"
     title = ""
-    weight = 5
+    weight = 6
 
 
 [params]

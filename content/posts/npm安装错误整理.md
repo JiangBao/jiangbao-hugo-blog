@@ -1,5 +1,5 @@
 ---
-title: "Npm安装错误整理"
+title: "Npm 安装错误整理"
 date: 2020-04-07T09:36:27+08:00
 draft: true
 author: "酱鲍"

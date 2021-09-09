@@ -1,5 +1,5 @@
 ---
-title: "又踩一个postgreSQL的坑"
+title: "又踩一个 postgreSQL 的坑"
 date: 2019-04-19T17:32:38+08:00
 draft: false
 tags: ["工具"]

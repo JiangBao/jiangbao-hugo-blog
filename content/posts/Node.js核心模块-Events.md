@@ -1,5 +1,5 @@
 ---
-title: "Node.js核心模块—Events"
+title: "Node.js 核心模块—Events"
 date: 2018-07-30T16:52:27+08:00
 draft: false
 author: "酱鲍"

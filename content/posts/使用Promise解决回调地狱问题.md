@@ -1,5 +1,5 @@
 ---
-title: "使用Promise解决回调地狱问题"
+title: "使用 Promise 解决回调地狱问题"
 date: 2017-04-21T14:58:29+08:00
 draft: false
 author: "酱鲍"

@@ -1,5 +1,5 @@
 ---
-title: "Node.js核心模块—Buffer"
+title: "Node.js 核心模块—Buffer"
 date: 2018-07-13T22:13:50+08:00
 draft: false
 tags: ["Node.js"]

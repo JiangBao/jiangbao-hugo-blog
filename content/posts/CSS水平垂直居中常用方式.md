@@ -1,5 +1,5 @@
 ---
-title: "CSS水平垂直居中常用方式"
+title: "CSS 水平垂直居中常用方式"
 date: 2017-05-15T17:24:24+08:00
 draft: false
 author: "酱鲍"

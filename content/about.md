@@ -8,6 +8,8 @@ lightgallery: true
 ---
 
 <div align=center>
+极简主义者
+
 宅，闷，爱好阅读、篮球
 
 历史爱好者，野路子程序员

@@ -147,7 +147,8 @@ theme = "LoveIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       # gravatarEmail = "jiangbao1123@gmail.com"
       # 主页显示头像的 URL
-      avatarURL = "https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/icon.jpeg"
+      # avatarURL = "https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/icon.jpeg"
+      avatarURL = "/images/avatar.jpg"
       # 主页显示的网站副标题
       subtitle = "野路子程序员，佛系人生玩家"
       # 是否为副标题显示打字机动画
@@ -236,6 +237,21 @@ theme = "LoveIt"
     [params.page.code]
     copy = true
     maxShownLines = 100
+    [params.page.mapbox]
+      # Mapbox GL JS 的 access token
+      accessToken = "pk.eyJ1IjoiamlhbmdiYW8xMTIzIiwiYSI6ImNreTFjeDl3dTAxMWoydm5wY2txdnN3NWYifQ.H4tHuXUVNDWtldkyrXVU2g"
+      # 浅色主题的地图样式
+      lightStyle = "mapbox://styles/mapbox/streets-v10"
+      # 深色主题的地图样式
+      darkStyle = "mapbox://styles/mapbox/streets-v10"
+      # 是否添加 NavigationControl
+      navigation = true
+      # 是否添加 GeolocateControl
+      geolocate = true
+      # 是否添加 ScaleControl
+      scale = false
+      # 是否添加 FullscreenControl
+      fullscreen = true
   [params.math]
     enable = true
     # default block delimiter is $$ ... $$ and \\[ ... \\]

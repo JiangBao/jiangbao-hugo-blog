@@ -31,20 +31,20 @@ theme = "LoveIt"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     title = ""
     weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    name = "标签"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 3
+  # [[menu.main]]
+  #   identifier = "tags"
+  #   pre = ""
+  #   name = "标签"
+  #   url = "/tags/"
+  #   title = ""
+  #   weight = 2
+  # [[menu.main]]
+  #   identifier = "categories"
+  #   pre = ""
+  #   name = "分类"
+  #   url = "/categories/"
+  #   title = ""
+  #   weight = 3
   [[menu.main]]
     identifier = "weekly"
     pre = ""
@@ -60,12 +60,19 @@ theme = "LoveIt"
     title = "防失业"
     weight = 5
   [[menu.main]]
+    identifier = "timeline"
+    pre = ""
+    name = "生活"
+    url = "/timeline"
+    title = "生活时间线"
+    weight = 6
+  [[menu.main]]
     identifier = "about"
     pre = ""
     name = "关于"
     url = "/about/"
-    title = ""
-    weight = 6
+    title = "关于酱鲍"
+    weight = 7
 
 
 [params]

@@ -1,6 +1,6 @@
 ---
 title: "Nginx 配置 websocket"
-date: 2021-12-17T14:09:54+08:00
+date: 2021-06-20T14:09:54+08:00
 draft: false
 author: "酱鲍"
 authorLink: "https://github.com/JiangBao"

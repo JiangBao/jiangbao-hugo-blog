@@ -80,9 +80,9 @@ html {
   display: none;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1680px) {
   .page {
-    width: 76%;
+    width: 80%;
     max-width: 1080px;
   }
 
@@ -91,10 +91,10 @@ html {
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1680px) {
   .page {
-    width: 66%;
-    max-width: 880px;
+    width: 70%;
+    max-width: 900px;
   }
 
   #header-desktop .header-wrapper {

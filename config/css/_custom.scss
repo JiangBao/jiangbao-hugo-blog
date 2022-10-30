@@ -81,6 +81,15 @@ html {
   display: none;
 }
 
+.page.single .content blockquote {
+  margin: 0;
+}
+
+iframe {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+}
+
 @media only screen and (min-width: 1680px) {
   .page {
     width: 80%;

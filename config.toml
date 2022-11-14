@@ -52,13 +52,13 @@ theme = "LoveIt"
     url = "/weekly"
     title = "兴趣周刊"
     weight = 4
-  [[menu.main]]
-    identifier = "interview"
-    pre = ""
-    name = "防失业"
-    url = "/interview"
-    title = "防失业"
-    weight = 5
+  # [[menu.main]]
+  #   identifier = "interview"
+  #   pre = ""
+  #   name = "防失业"
+  #   url = "/interview"
+  #   title = "防失业"
+  #   weight = 5
   [[menu.main]]
     identifier = "timeline"
     pre = ""

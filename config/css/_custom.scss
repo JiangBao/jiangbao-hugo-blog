@@ -90,6 +90,25 @@ iframe {
   border-radius: 6px;
 }
 
+.archive {
+  .group-title {
+    display: none;
+  }
+
+  .archive-item {
+    margin: 0.4rem 0;
+  }
+
+  .archive-item-date {
+    width: 6em;
+    font-size: 14px;
+  }
+
+  .archive-item-link {
+    max-width: calc(100% - 6em);
+  }
+}
+
 @media only screen and (min-width: 1680px) {
   .page {
     width: 80%;

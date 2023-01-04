@@ -157,7 +157,8 @@ theme = "LoveIt"
       # 主页显示头像的 URL
       # avatarURL = "https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/icon.jpeg"
       # avatarURL = "/images/avatar.jpg"
-      avatarURL = "/images/shaobing.jpg"
+      # avatarURL = "/images/shaobing.jpg"
+      avatarURL = "https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/shaobing.jpg"
       # 主页显示的网站副标题
       subtitle = "野路子程序员，佛系人生玩家"
       # 是否为副标题显示打字机动画

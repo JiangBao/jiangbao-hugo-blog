@@ -116,18 +116,25 @@ iframe {
   }
 
   #header-desktop .header-wrapper {
-    padding: 0 20rem 0 20rem;
+    // padding: 0 20rem 0 20rem;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 }
 
-@media only screen and (max-width: 1680px) {
+@media only screen and (min-width: 1201px) and (max-width: 1680px) {
   .page {
     width: 70%;
     max-width: 900px;
   }
 
   #header-desktop .header-wrapper {
-    padding: 0 10rem 0 15rem;
+    // padding: 0 10rem 0 15rem;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
   }
 }
 

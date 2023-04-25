@@ -54,6 +54,10 @@ html {
       margin: 2em 0;
       font-weight: 300;
 
+      p {
+        margin: 0;
+      }
+
       &::after {
         content: "";
       }
@@ -65,6 +69,7 @@ html {
   .single-title {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
   }
   .post-meta {
     display: none;
@@ -96,7 +101,7 @@ iframe {
   }
 
   .archive-item {
-    margin: 0.5rem 0;
+    margin: 0.7rem 0;
   }
 
   .archive-item-date {

@@ -44,6 +44,10 @@ html {
   }
 }
 
+.page h2.single-title {
+  font-size: 1.3rem;
+}
+
 // 文章详情页样式
 .page.single {
   .content {
@@ -68,8 +72,9 @@ html {
   }
   .single-title {
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
   }
   .post-meta {
     display: none;
@@ -79,6 +84,12 @@ html {
   }
   .post-footer {
     visibility: hidden;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -101,7 +112,7 @@ iframe {
   }
 
   .archive-item {
-    margin: 0.7rem 0;
+    margin: 0.8rem 0;
   }
 
   .archive-item-date {
@@ -121,11 +132,25 @@ iframe {
   }
 
   #header-desktop .header-wrapper {
-    // padding: 0 20rem 0 20rem;
     padding: 0;
     width: 80%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1140px;
+  }
+
+  #header-desktop {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(12px);
+    height: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  [theme=dark] #header-desktop {
+    background-color: #252627;
+  }
+
+  .menu-item.search input {
+    background-color: transparent;
   }
 }
 
@@ -135,10 +160,25 @@ iframe {
     max-width: 900px;
   }
 
+  #header-desktop {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(12px);
+    height: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  [theme=dark] #header-desktop {
+    background-color: #252627;
+  }
+
+  .menu-item.search input {
+    background-color: transparent;
+  }
+
   #header-desktop .header-wrapper {
-    // padding: 0 10rem 0 15rem;
     padding: 0;
     width: 70%;
+    max-width: 960px;
     margin: 0 auto;
   }
 }
@@ -149,7 +189,26 @@ iframe {
   }
 
   #header-desktop .header-wrapper {
-    padding: 0 5rem;
+    // padding: 0 5rem;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 860px;
+  }
+
+  #header-desktop {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(12px);
+    height: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  [theme=dark] #header-desktop {
+    background-color: #252627;
+  }
+
+  .menu-item.search input {
+    background-color: transparent;
   }
 }
 

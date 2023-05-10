@@ -83,7 +83,13 @@ html {
     border-radius: 0.5rem;
   }
   .post-footer {
-    visibility: hidden;
+    display: none;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.2rem;
   }
   h2 {
     font-size: 1.3rem;
@@ -125,22 +131,27 @@ iframe {
   }
 }
 
+footer.footer {
+  margin-top: 4rem;
+}
+
 @media only screen and (min-width: 1680px) {
-  .page {
-    width: 80%;
-    max-width: 1080px;
-  }
+  // .page {
+  //   width: 80%;
+  //   max-width: 1080px;
+  // }
 
   #header-desktop .header-wrapper {
     padding: 0;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 880px;
   }
 
   #header-desktop {
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     height: 4.5rem;
     line-height: 4.5rem;
   }
@@ -155,9 +166,25 @@ iframe {
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1680px) {
-  .page {
-    width: 70%;
-    max-width: 900px;
+  // .page {
+  //   width: 70%;
+  //   max-width: 900px;
+  // }
+
+  #header-desktop {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  [theme=dark] #header-desktop {
+    background-color: #252627;
+  }
+
+  .menu-item.search input {
+    background-color: transparent;
   }
 
   #header-desktop {
@@ -178,27 +205,28 @@ iframe {
   #header-desktop .header-wrapper {
     padding: 0;
     width: 70%;
-    max-width: 960px;
+    max-width: 880px;
     margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .page {
-    width: 80%;
-  }
+  // .page {
+  //   width: 80%;
+  // }
 
   #header-desktop .header-wrapper {
     // padding: 0 5rem;
     padding: 0;
     width: 80%;
     margin: 0 auto;
-    max-width: 860px;
+    max-width: 800px;
   }
 
   #header-desktop {
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     height: 4.5rem;
     line-height: 4.5rem;
   }

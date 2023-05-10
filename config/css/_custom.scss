@@ -91,6 +91,12 @@ html {
   h3 {
     font-size: 1.2rem;
   }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
 }
 
 .post-nav {
@@ -169,6 +175,21 @@ footer.footer {
     background-color: hsla(0, 0%, 100%, 0.5);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    height: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  [theme=dark] #header-desktop {
+    background-color: #252627;
+  }
+
+  .menu-item.search input {
+    background-color: transparent;
+  }
+
+  #header-desktop {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(12px);
     height: 4.5rem;
     line-height: 4.5rem;
   }

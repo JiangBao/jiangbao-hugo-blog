@@ -60,13 +60,13 @@ theme = "LoveIt"
   #   url = "/interview"
   #   title = "防失业"
   #   weight = 5
-  [[menu.main]]
-    identifier = "timeline"
-    pre = ""
-    name = "生活"
-    url = "/timeline"
-    title = "生活时间线"
-    weight = 6
+  #[[menu.main]]
+  #  identifier = "timeline"
+  #  pre = ""
+  #  name = "生活"
+  #  url = "/timeline"
+  #  title = "生活时间线"
+  #  weight = 6
   [[menu.main]]
     identifier = "about"
     pre = ""

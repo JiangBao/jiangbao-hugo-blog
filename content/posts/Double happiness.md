@@ -1,6 +1,6 @@
 ---
-title: "12-05"
-date: 2021-12-05T19:31:07+08:00
+title: "Double happiness"
+date: 2021-02-09T21:16:03+08:00
 draft: false
 author: "酱鲍"
 authorLink: "https://github.com/JiangBao"
@@ -25,4 +25,4 @@ comment: false
 
 <!--more-->
 
-{{<figure src="https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/20211205_paopao.jpg" title="泡泡和烧饼" width="66%">}}
+{{<figure src="https://jiangbao-1258001083.cos.ap-shanghai.myqcloud.com/gift20210209.jpeg" title="Double happiness">}}

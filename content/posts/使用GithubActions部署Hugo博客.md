@@ -1,5 +1,5 @@
 ---
-title: "使用 Gitub Actions 部署 Hugo 博客"
+title: "使用 Github Actions 部署 Hugo 博客"
 date: 2020-05-18T09:04:28+08:00
 draft: false
 author: "酱鲍"

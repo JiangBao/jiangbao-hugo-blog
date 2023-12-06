@@ -7,7 +7,7 @@ authorLink: "https://github.com/JiangBao"
 description: ""
 
 tags: ["工具"]
-categories: ["问题归档"]
+categories: ["技术"]
 hiddenFromHomePage: false
 
 featuredImage: ""

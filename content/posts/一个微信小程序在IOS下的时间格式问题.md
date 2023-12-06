@@ -7,7 +7,7 @@ authorLink: "https://github.com/JiangBao"
 description: "微信小程序在IOS下使用new Date()的时间格式问题"
 
 tags: ["JavaScript"]
-categories: ["问题归档"]
+categories: ["技术"]
 hiddenFromHomePage: false
 
 featuredImage: ""

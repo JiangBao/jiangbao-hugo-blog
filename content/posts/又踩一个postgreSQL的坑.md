@@ -3,7 +3,7 @@ title: "又踩一个 postgreSQL 的坑"
 date: 2019-04-19T17:32:38+08:00
 draft: false
 tags: ["工具"]
-categories: ["问题归档"]
+categories: ["技术"]
 toc: false
 ---
 今日在家里的笔记本下安装`postgreSQL`跑一个测试项目，`brew`一键安装，安装之后`psql --version`，一看轻松搞定，可是试图连接时它却这样告诉我

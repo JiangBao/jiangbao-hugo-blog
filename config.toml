@@ -39,20 +39,20 @@ theme = "LoveIt"
   #   url = "/tags/"
   #   title = ""
   #   weight = 2
-  # [[menu.main]]
-  #   identifier = "categories"
-  #   pre = ""
-  #   name = "分类"
-  #   url = "/categories/"
-  #   title = ""
-  #   weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 4
   [[menu.main]]
     identifier = "weekly"
     pre = ""
     name = "周刊"
     url = "/weekly"
     title = "兴趣周刊"
-    weight = 4
+    weight = 3
   # [[menu.main]]
   #   identifier = "interview"
   #   pre = ""
@@ -148,6 +148,10 @@ theme = "LoveIt"
     # section 页面每页显示文章数量
     paginate = 20
     dateFormat = "2006-01-02"
+  [params.list]
+    # section 页面每页显示文章数量
+    paginate = 20
+    dateFormat = "2006-01-02"
   # 文章页面配置
   [params.home]
     # 主页信息设置
@@ -163,7 +167,7 @@ theme = "LoveIt"
       # 主页显示的网站副标题
       subtitle = "野路子程序员，佛系人生玩家"
       # 是否为副标题显示打字机动画
-      typeit = false
+      typeit = true
       # 是否显示社交账号
       social = false
       # title = '测试标题'

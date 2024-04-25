@@ -1,8 +1,11 @@
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/lxgwwenkaiscreen/result.css');
+
 html {
   letter-spacing: 0.01em;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
 }
+
 .home {
   // 首页只展示头像
   height: calc(100vh - 120px);
@@ -45,7 +48,7 @@ html {
 }
 
 .page h2.single-title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 // 文章详情页样式
@@ -67,14 +70,14 @@ html {
       }
     }
     p {
-      margin: 1.1rem 0;
+      margin: 1rem 0;
     }
   }
   .single-title {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .post-meta {
     display: none;
@@ -83,24 +86,14 @@ html {
     border-radius: 0.5rem;
   }
   .post-footer {
-    display: none;
+    display: none; 
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
-  h2 {
-    font-size: 1.3rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-}
-
-.post-nav {
-  display: none;
 }
 
 .page.single .content blockquote {
@@ -118,7 +111,7 @@ iframe {
   }
 
   .archive-item {
-    margin: 0.8rem 0;
+    margin: 0.6rem 0;
   }
 
   .archive-item-date {
@@ -127,6 +120,7 @@ iframe {
   }
 
   .archive-item-link {
+    font-size: 1.1rem;
     max-width: calc(100% - 8em);
   }
 }
